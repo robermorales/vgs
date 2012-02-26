@@ -3,6 +3,8 @@ require 'sinatra'
 require 'dm-core'
 require 'dm-validations'
 require 'logger'
+require 'sass'
+require 'haml'
 
 get '/' do
 	haml :layout

@@ -22,6 +22,7 @@ GEM
       term-ansicolor (~> 1.0.7)
       thor (>= 0.13.6)
     haml (3.1.4)
+    pg (0.13.2)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
@@ -47,6 +48,7 @@ DEPENDENCIES
   dm-validations
   foreman
   haml
+  pg
   sass
   sinatra
   thin
