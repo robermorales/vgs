@@ -6,7 +6,5 @@ gem 'foreman'
 gem 'haml'
 gem 'sass'
 gem 'pg'
-gem 'dm-core'
-gem 'dm-validations'
+gem 'data_mapper'
 gem 'dm-postgres-adapter'
-
