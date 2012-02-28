@@ -21,7 +21,7 @@ get '/' do
 	haml :index
 end
 
-get '/todo' do
+get '/projects/index' do
 	@projects = Project.all
 	haml :project_index
 end
