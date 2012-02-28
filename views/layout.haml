@@ -18,12 +18,12 @@
 	%meta{ :name=>"Keywords"     ,:content=>"visualligence, visualization, data visualization, dataviz, data, graph, dv" }
 	%meta{ :name=>"Description"  ,:content=>"visualligence, visualization, data visualization, dataviz, data, graph, dv" }
 
-	%link{ :rel=>"stylesheet"       ,:href=>"./bp/css/style.css?v=2" }
-	%link{ :rel=>"stylesheet"       ,:href=>"./bp/css/jquery-ui/smoothness/jquery-ui-1.8.6.custom.css" }
-	%link{ :rel=>"stylesheet"       ,:href=>"./css/style.css" }
+	%link{ :rel=>"stylesheet"       ,:href=>"/bp/css/style.css?v=2" }
+	%link{ :rel=>"stylesheet"       ,:href=>"/bp/css/jquery-ui/smoothness/jquery-ui-1.8.6.custom.css" }
+	%link{ :rel=>"stylesheet"       ,:href=>"/css/style.css" }
 
-	%link{ :rel=>"shortcut icon"    ,:href=>"./favicon.ico" }
-	%link{ :rel=>"apple-touch-icon" ,:href=>"./apple-touch-icon.png" }
+	%link{ :rel=>"shortcut icon"    ,:href=>"/favicon.ico" }
+	%link{ :rel=>"apple-touch-icon" ,:href=>"/apple-touch-icon.png" }
 
 	%script{ :type=>"text/javascript", :src=>"https://www.google.com/jsapi" }
 	%script
@@ -41,29 +41,29 @@
 		%a{ :href=>'http://www.unex.es/' }
 			Universidad de Extremadura
 
-	%script{ :src => "./bp/js/modernizr-1.6.min.js" }
-	%script{ :src => "//code.jquery.com/jquery-1.7.1.min.js.js" }
-	%script !window.jQuery && document.write(unescape('%3Cscript src="./bp/js/jquery-1.7.1.min.js"%3E%3C/script%3E'))
+	%script{ :src => "/bp/js/modernizr-1.6.min.js" }
+	%script{ :src => "//code.jquery.com/jquery-1.7.1.min.js" }
+	%script !window.jQuery && document.write(unescape('%3Cscript src="/bp/js/jquery-1.7.1.min.js"%3E%3C/script%3E'))
 	%script{ :src => "//ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js" }
-	%script !window.jQuery.ui && document.write(unescape('%3Cscript src="./bp/js/jquery-ui-1.8.6.min.js"%3E%3C/script%3E'))
+	%script !window.jQuery.ui && document.write(unescape('%3Cscript src="/bp/js/jquery-ui-1.8.6.min.js"%3E%3C/script%3E'))
 
-	%script{ :src => "./workspace/test1/main.js" }
-	%script{ :src => "./patterns/patterns.js" }
-	%script{ :src => "./patterns/googlestatic/googlestatic.js" }
-	%script{ :src => "./patterns/googlestatic/barchart/barchart.js" }
-	%script{ :src => "./patterns/visualligence/visualligence.js" }
-	%script{ :src => "./patterns/visualligence/table/table.js" }
-	%script{ :src => "./patterns/visualligence/tbarchart/tbarchart.js" }
-	%script{ :src => "./patterns/visualligence/tjava/tjava.js" }
-	%script{ :src => "./sources/sources.js" }
-	%script{ :src => "./sources/googledocs/googledocs.js" }
+	%script{ :src => "/workspace/test1/main.js" }
+	%script{ :src => "/patterns/patterns.js" }
+	%script{ :src => "/patterns/googlestatic/googlestatic.js" }
+	%script{ :src => "/patterns/googlestatic/barchart/barchart.js" }
+	%script{ :src => "/patterns/visualligence/visualligence.js" }
+	%script{ :src => "/patterns/visualligence/table/table.js" }
+	%script{ :src => "/patterns/visualligence/tbarchart/tbarchart.js" }
+	%script{ :src => "/patterns/visualligence/tjava/tjava.js" }
+	%script{ :src => "/sources/sources.js" }
+	%script{ :src => "/sources/googledocs/googledocs.js" }
 
-	%script{ :src => "./js/plugins.js" }
-	%script{ :src => "./js/script.js" }
+	%script{ :src => "/js/plugins.js" }
+	%script{ :src => "/js/script.js" }
 
 	%script $("body").fadeIn();
 
-	/[if lt IE 7 ] <script src="./js/dd_belatedpng.js"></script><script> DD_belatedPNG.fix('img, .png_bg'); </script>
+	/[if lt IE 7 ] <script src="/js/dd_belatedpng.js"></script><script> DD_belatedPNG.fix('img, .png_bg'); </script>
 
 	%script
 		var _gaq = _gaq || [];
@@ -76,5 +76,3 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 </html>
-
-
