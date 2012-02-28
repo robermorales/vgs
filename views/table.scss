@@ -1,0 +1,44 @@
+table.hl {
+  margin: 2em 0;
+  td.ln { text-align: right; }
+}
+
+li {
+  font: {
+    family: serif;
+    weight: bold;
+    size: 1.2em;
+  }
+}
+$blue: #3bbfce;
+$margin: 16px;
+
+.content_navigation {
+  border-color: $blue;
+  color: darken($blue, 10%);
+}
+
+.border {
+  padding: $margin / 2;
+  margin: $margin / 2;
+  border-color: $blue;
+}
+
+@mixin table-scaffolding {
+  th {
+    text-align: center;
+    font-weight: bold;
+  }
+  td, th { padding: 2px; }
+}
+
+@mixin left($dist) {
+  float: left;
+  margin-left: $dist;
+}
+
+#data {
+  @include left(10px);
+  @include table-scaffolding;
+}
+
