@@ -18,12 +18,16 @@ end
 DataMapper.auto_upgrade!
 
 get '/' do
+	haml :index
+end
+
+get '/todo' do
 	@projects = Project.all
 	haml :project_index
 end
 
 # SASS stylesheet
-get '/css/style.css' do
+get '/css/main.css' do
   headers 'Content-Type' => 'text/css; charset=utf-8'
-  sass :style
+  sass :main
 end
