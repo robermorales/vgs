@@ -20,7 +20,6 @@ DataMapper.auto_upgrade!
 get '/' do
 	@projects = Project.all
 	haml :project_index
-	#'Hello world!'
 end
 
 # SASS stylesheet
