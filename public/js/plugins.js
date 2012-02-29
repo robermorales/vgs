@@ -1,5 +1,7 @@
 (function($){
 
+	$( "input:submit, .button, button" ).button();
+
 })(this.jQuery);
 
 window.log = function(){
